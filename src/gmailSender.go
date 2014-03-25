@@ -37,7 +37,6 @@ func main() {
 
 	m.Run()
 
-	m.Get("/assets/*", martini.Static("assets"))
 }
 
 func sendEmail(theMessage string, theSender string, theSubject string){
