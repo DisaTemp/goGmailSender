@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e7da027-4791-452d-9ff5-15fdc52be126" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gmailSender.go" afterPath="$PROJECT_DIR$/gmailSender.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gmailSender.go" afterPath="$PROJECT_DIR$/src/gmailSender.go" />
+    <list default="true" id="5e7da027-4791-452d-9ff5-15fdc52be126" name="Default" comment="removed real server info">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gmailSender.iws" />
@@ -27,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="gmailSender.go" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="gmailSender.go" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gmailSender.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="1" selection-start="283" selection-end="283" vertical-scroll-proportion="0.18329939" vertical-offset="0" max-vertical-offset="1545">
+            <state line="12" column="1" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1545">
               <folding />
             </state>
           </provider>
@@ -63,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="61" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+            <state line="2" column="0" selection-start="21" selection-end="105" vertical-scroll-proportion="0.030549899" vertical-offset="0" max-vertical-offset="982">
               <folding />
             </state>
           </provider>
@@ -98,6 +96,11 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Michael Appenzellar" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -340,7 +343,11 @@
       <created>1395755279685</created>
       <updated>1395755279685</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="removed real server info">
+      <created>1395757368957</created>
+      <updated>1395757368957</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -383,7 +390,8 @@
     </option>
     <MESSAGE value="added readme" />
     <MESSAGE value="updated comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated comment" />
+    <MESSAGE value="removed real server info" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed real server info" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -536,13 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="61" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/gmailSender.go">
       <provider selected="true" editor-type-id="text-editor">
         <state line="97" column="0" selection-start="1973" selection-end="1973" vertical-scroll-proportion="0.0" vertical-offset="503" max-vertical-offset="1545">
@@ -552,7 +553,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gmailSender.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="283" selection-end="283" vertical-scroll-proportion="0.18329939" vertical-offset="0" max-vertical-offset="1545">
+        <state line="12" column="1" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="21" selection-end="105" vertical-scroll-proportion="0.030549899" vertical-offset="0" max-vertical-offset="982">
           <folding />
         </state>
       </provider>
