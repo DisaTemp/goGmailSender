@@ -63,17 +63,17 @@ func sendEmail(theMessage string, theSender string, theSubject string){
 	// Set up authentication information.
 	auth := smtp.PlainAuth(
 		"",
-		"mappenzellar@gmail.com",
-		"Taylor0428!!",
-		"smtp.gmail.com",
+		"EMAIL GOES HERE",
+		"PASSWORD GOES HERE",
+		"SMTP SERVER GOES HERE",
 	)
 
 	// Connect to the server, authenticate, set the sender and recipient,
 	// and send the email all in one step.
 	err := smtp.SendMail(
-		"smtp.gmail.com:587",
+		"SMTP SERVER GOES HERE : PORT",
 		auth,
-		"mappenzellar@gmail.com",
+		"EMAIL GOES HERE",
 		[]string{theSender},
 		buffer.Bytes(),
 	)

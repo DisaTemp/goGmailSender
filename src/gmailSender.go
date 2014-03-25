@@ -1,6 +1,5 @@
 //WITH SUPPORT FROM http://www.goinggo.net/2013/06/send-email-in-go-with-smtpsendmail.html
 
-
 package main
 
 import (
@@ -50,7 +49,7 @@ func sendEmail(theMessage string, theSender string, theSubject string){
 			Subject string
 			Message string
 		}{
-		"YOUR@EMAIL.COM",
+		"mappenzellar@gmail.com",
 		theSender,
 		theSubject,
 		theMessage,
@@ -64,17 +63,17 @@ func sendEmail(theMessage string, theSender string, theSubject string){
 	// Set up authentication information.
 	auth := smtp.PlainAuth(
 		"",
-		"YOUR@EMAIL.COM",
-		"YOUR PASSWORD",
-		"YOUR SMTP SERVER",
+		"EMAIL GOES HERE",
+		"PASSWORD GOES HERE",
+		"SMTP SERVER GOES HERE",
 	)
 
 	// Connect to the server, authenticate, set the sender and recipient,
 	// and send the email all in one step.
 	err := smtp.SendMail(
-		"YOUR SMTP SERVER : PORT",
+		"SMTP SERVER GOES HERE : PORT",
 		auth,
-		"YOUR@EMAIL.COM",
+		"EMAIL GOES HERE",
 		[]string{theSender},
 		buffer.Bytes(),
 	)
