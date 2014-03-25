@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Gmail Sender</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+        <link href="/signin.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <form class="form-signin" role="form" method="post" action="/" name="senderForm">
+                <h1 class="form-signin-heading">Gmail Sender</h1>
+
+                <input type="text" name="TheSender" class="form-control" placeholder="Email address" required autofocus>
+                <br><br>
+                <input type="text" name="TheSubject" class="form-control" placeholder="Subject" required>
+                <br><br>
+                <textarea class="form-control" placeholder="E-Mail Message" row="30" name="TheMessage" id="TheMessage" required></textarea>
+
+                <br><br>
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Send E-Mail</button>
+            </form>
+        </div>
+    </body>
+</html>
+
