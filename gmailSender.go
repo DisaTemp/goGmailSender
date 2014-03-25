@@ -49,7 +49,7 @@ func sendEmail(theMessage string, theSender string, theSubject string){
 			Subject string
 			Message string
 	}{
-		"mappenzellar@gmail.com",
+		"EMAIL GOES HERE",
 		theSender,
 		theSubject,
 		theMessage,
