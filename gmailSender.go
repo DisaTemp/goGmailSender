@@ -1,3 +1,5 @@
+//WITH SUPPORT FROM http://www.goinggo.net/2013/06/send-email-in-go-with-smtpsendmail.html
+
 package main
 
 import (
